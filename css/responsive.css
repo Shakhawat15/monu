@@ -1,0 +1,110 @@
+/* Large Device.. */
+@media (min-width: 992px) and (max-width: 1200px){
+  /* Header Section */
+  .main-menu ul li {
+  	margin-left: 30px;
+  }
+  /* Features Section */
+  .slider-inner {
+	  padding-bottom: 60px;
+  }
+  .slider-inner h2 {
+	  font-size: 60px;
+  }
+  .slider-inner p {
+  	margin-bottom: 30px;
+  }
+}
+
+/* Mideum Device */
+@media (min-width: 768px) and (max-width: 991px){
+  /* Header Section */
+  .header-area {
+	  padding: 20px 0;
+    padding-bottom: 10px;
+  }
+  /* Slider Section */
+  .slider-inner h2 {
+  	font-size: 48px;
+  }
+  /* Features Section */
+  .about-area {
+	  padding: 50px 0;
+  }
+  .features-area {
+	  margin-top: -125px;
+  }
+  /* Subscribe Section */
+  .subscribe-form button {
+	  margin-top: 15px;
+  }
+  .subscribe-form input {
+  	width: 30%;
+  }
+}
+
+/* Small Mobile */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+  /* Features Section */
+  .single-features {
+	  padding: 0 15px;
+  }
+  /* Footer Section */
+}
+/* Extra Small Mobile */
+@media (max-width: 767px){
+  .section-title h2{
+    font-size: 25px;
+  }
+  /* Header Section */
+  .header-area {
+	  padding: 20px 0;
+    padding-bottom: 10px;
+  }
+  /* Slider Section */
+  .slider-inner h2 {
+	  font-size: 35px;
+  }
+  /* Features Section */
+  .fbr {
+	  border-right: 0;
+  }
+  .features-area {
+  	margin-top: 0;
+  	padding-top: 50px;
+  }
+  .single-features {
+	  border-bottom: 1px solid #6a74fc;
+  }
+  .theme-bg .col-lg-4:last-child .single-features{
+    border-bottom: 0;
+  }
+  .about-text h3 {
+	  font-size: 25px;
+  }
+  .about-img {
+	  margin-top: 15px;
+  }
+  /* Subscribe Section */
+  .subscribe-form input {
+  	width: 100%;
+  	margin-top: 10px;
+  }
+  .subscribe-form button {
+  	margin-top: 10px;
+  	display: block;
+  	width: 100%;
+  }
+  /* Pricing Section */
+  .pricing-item {
+	  width: 100%;
+  }
+  /* Testimonial Section */
+  .testimonial-item {
+  	padding: 45px 15px;
+  }
+  /* Footer Section */
+  .copyright-area{
+    text-align: center;
+  }
+}
